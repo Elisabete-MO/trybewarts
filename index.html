@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <title>Trybewarts</title>
@@ -13,15 +14,15 @@
         <title>
             <h1 id="trybewarts-header-title">Trybewarts</h1>
         </title>
-         <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
+        <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
+        <form class="trybewarts-login" >
+            <label for="email">Email:</label>
+            <input type="text" name="email" placeholder="Email">
+            <label for="nome">Senha:</label>
+             <input type="text" name="senha" placeholder="Senha">
+            <button>Login</button>
+        </form>
     </header>
-    <form class="form-container" >
-        <label for="email">Email:</label>
-        <input type="text" name="email" placeholder="Email">
-        <label for="nome">Senha:</label>
-        <input type="text" name="senha" placeholder="Senha">
-        <button>Login</button>
-    </form>
     <main>
         <forms id="evatuation-form">
             <label for="input-name">Nome:</label>
@@ -31,11 +32,20 @@
             <label for="email">Email:</label>
             <input type="text" id="input-email" placeholder="Email">
             <select id="house">
-            <option value="Gitnória" id="gitnoria-house" >Gitnória</option>
-            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-            <option id="Corvinode" id="corvinode-house">Corvinode</option>
-            <option id="Pytherina" id="pytherina">Pytherina</option>
+                <option value="Gitnória" id="gitnoria-house" >Gitnória</option>
+                <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                <option id="Corvinode" id="corvinode-house">Corvinode</option>
+                <option id="Pytherina" id="pytherina">Pytherina</option>
             </select>
+            
+            <label id="label-family">
+                <input type="radio" name="family" value="Frontend">
+                <label for="html">Frontend</label><br>
+                <input type="radio" name="family" value="Backend">
+                <label for="html">Backend</label><br>
+                <input type="radio" name="family" value="Fullstack">
+                <label for="html">Fullstack</label><br>
+            </label>
         </forms>
     </main>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
