@@ -14,8 +14,8 @@
 .trybewarts-login { display: flex;
 }
 
-main { display: flex;
-}
+/*main { display: flex;
+}*/
 
 #evatuation-form { display: flex;
   width: 675px;
@@ -32,6 +32,10 @@ main { display: flex;
 
 #label-content { display: flex;
   flex-direction: column;}
+
+#label-rate { display: flex;
+  flex-direction: row;
+}
 
 #trybewarts-forms-logo { height: 500px;}
 
