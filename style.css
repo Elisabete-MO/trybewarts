@@ -26,6 +26,11 @@ main {
   flex-direction: column;
 }
 
+.form-container {
+  display: flex;
+  flex-direction: row;
+}
+
 #label-family {
   display: flex;
   flex-direction: column;
@@ -40,5 +45,7 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
