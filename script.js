@@ -10,7 +10,6 @@ function validacaoEmail() {
   if (emailInvalido || senhaInvalida) {
     return false;
   }
-  return;
 }
 
 btnlogin.addEventListener('click', (event) => {
@@ -46,3 +45,12 @@ function radiosAvaliacao() {
 }
 
 radiosAvaliacao();
+// 15. Crie uma textarea.
+const counter = document.querySelector('#counter');
+const textArea = document.querySelector('#textarea');
+
+function updateTextArea() {
+  counter.innerText = 500 - textArea.value.length;
+}
+
+textArea.addEventListener('input', updateTextArea);
