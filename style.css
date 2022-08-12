@@ -4,18 +4,22 @@
   font-size: 100%;
   box-sizing: border-box;
 }
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
   align-items: center;
 }
+
 .trybewarts-login {
   display: flex;
 }
+
 main {
   display: flex;
 }
+
 #evaluation-form {
   display: flex;
   width: 675px;
@@ -31,6 +35,7 @@ main {
   display: flex;
   flex-direction: column;
 }
+
 #label-content {
   display: flex;
   flex-direction: column;}
