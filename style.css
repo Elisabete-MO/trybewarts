@@ -38,8 +38,11 @@ main {
 
 #label-content {
   display: flex;
-  flex-direction: column;}
-#label-rate { display: flex;
+  flex-direction: column;
+}
+
+#label-rate {
+  display: flex;
 }
 
 #trybewarts-forms-logo {
