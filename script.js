@@ -4,18 +4,16 @@ const btnlogin = document.querySelector('#btnlogin');
 const email = document.querySelector('#emailLogin');
 const senha = document.querySelector('#senha');
 
-function validacaoEmail () {
+function validacaoEmail() {
   const emailInvalido = email.value.length < 10 || email.value.length > 50;
   const senhaInvalida = senha.value.length < 6 || senha.value.length > 20;
   if (emailInvalido || senhaInvalida) {
     return false;
   }
-  else {
-    return true;
-  }
+  return;
 }
 
-btnlogin.addEventListener ('click', (event) => {
+btnlogin.addEventListener('click', (event) => {
   event.preventDefault();
   const validacao = validacaoEmail();
   if (validacao === false) {
