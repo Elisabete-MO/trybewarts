@@ -8,9 +8,9 @@ btnlogin.addEventListener('click', function(event) {
   event.preventDefault();
   const validacao = validacaoEmail();
   if (validacao === false) {
-    alert('Dados inválidos');
+    alert('Email ou senha inválidos.');
   } else {
-    alert('Login realizado com sucesso!');
+    alert('Olá, Tryber!');
   }
   email.value = "";
   senha.value = "";
