@@ -30,8 +30,8 @@ function validacaoEmail() {
   }
 }
 
-inserindo os radios de avalização
-id=avaliation
+// inserindo os radios de avalização
+// id=avaliation
 const radioBox = document.querySelector('#avaliation');
 
 function radiosAvaliacao() {
