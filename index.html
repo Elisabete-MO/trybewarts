@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="http://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Trybewarts</title>
 </head>
 <body>
@@ -15,6 +14,7 @@
         <h1 id="trybewarts-header-title">Trybewarts</h1>
         <form class="trybewarts-login" >
             <label for="email">Email:</label>
+<<<<<<< HEAD
             <input type="text" name="email" placeholder="Email">
             <label for="senha">Senha:</label>
             <input type="password" name="senha" placeholder="Senha">
@@ -28,6 +28,21 @@
                 <input type="text" id="input-name" placeholder="Nome">
                 <label for="input-lastName">Sobrenome:</label>
                 <input type="text" id="input-lastName" placeholder="Sobrenome">
+=======
+            <input type="text" name="email" placeholder="Email" id="emailLogin">
+            <label for="senha">Senha:</label>
+            <input type="password" name="password" placeholder="Senha" id="senha">
+            <button id="btnlogin">Entrar</button>
+        </form>
+    </header>
+    <main>
+        <forms id="evaluation-form">
+            <div class="form-container">
+            <label for="input-name">Nome:</label>
+            <input type="text" id="input-name" placeholder="Nome">
+            <label for="input-lastName">Sobrenome:</label>
+            <input type="text" id="input-lastName" placeholder="Sobrenome">
+>>>>>>> 0f9bcca67b101249ebe165c224fdf427ec4ca22a
             </div>
             <div>
                 <label for="email">Email:</label>
@@ -64,34 +79,14 @@
                 <input type="checkbox" class="subject" value="Python">
                 <label for="Python">Python</label><br>
             </label> 
-            <div id="validation">
+            <div id="avaliation">
                 <label id =label-rate>
                     Como você avalia a Trybewarts?
-                    <input type="radio" name="rate" value="one">
-                    <label for="one">1</label><br>
-                    <input type="radio" name="rate" value="two">
-                    <label for="two">2</label><br>
-                    <input type="radio" name="rate" value="three">
-                    <label for="three">3</label><br>
-                    <input type="radio" name="rate" value="four">
-                    <label for="four">4</label><br>
-                    <input type="radio" name="rate" value="five">
-                    <label for="five">5</label><br>
-                    <input type="radio" name="rate" value="six">
-                    <label for="six">6</label><br>
-                    <input type="radio" name="rate" value="seven">
-                    <label for="seven">7</label><br>
-                    <input type="radio" name="rate" value="eight">
-                    <label for="eight">8</label><br>
-                    <input type="radio" name="rate" value="nine">
-                    <label for="nine">9</label><br>
-                    <input type="radio" name="rate" value="ten">
-                    <label for="ten">10</label><br>
                 </label>
             </div>
         </div>
-
     </main>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
+    <script src="script.js"></script>
 </body>
 </html>
