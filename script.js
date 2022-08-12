@@ -1,10 +1,7 @@
-/* <script src="script.js"></script> footer */
-// id="evatuation-form"
 // validação do botão enviar:
-// necessário incluir o id btnlogin ao botao de login, email ao campo email e senha ao campo senha
 
 const btnlogin = document.querySelector('#btnlogin');
-const email = document.querySelector('#email');
+const email = document.querySelector('#emailLogin');
 const senha = document.querySelector('#senha');
 
 btnlogin.addEventListener('click', function(event) {
