@@ -45,27 +45,12 @@ function radiosAvaliacao() {
 }
 
 radiosAvaliacao();
-<<<<<<< HEAD
-// // 15. Crie uma textarea.
-// const counter = document.querySelector('#counter');
-// const textArea = document.querySelector('#textarea');
-=======
 
 // 15. Crie uma textarea.
 const counter = document.querySelector('#counter');
 const textArea = document.querySelector('#textarea');
->>>>>>> 5fa02501d0cad228d0eaa078bccc49f37574b755
-
-// function updateTextArea() {
-//   counter.innerText = 500 - textArea.value.length;
-// }
-
-<<<<<<< HEAD
-// textArea.addEventListener('input', updateTextArea);
-=======
 textArea.addEventListener('input', updateTextArea);
 
-<<<<<<< HEAD
 // 18. Habilite o botão "Enviar" após a validação do checkbox//
 const agreementCheckbox = document.getElementById('agreement');
 const sendButton = document.getElementById('submit-btn');
@@ -78,7 +63,3 @@ function validateFormSubmit() {
   }
 }
 validateFormSubmit();
-=======
-//17. Crie um botão de "Enviar" para submeter o formulário//
->>>>>>> 5fa02501d0cad228d0eaa078bccc49f37574b755
->>>>>>> ecf3fe07bd3c719f90f539fc24089a95887e18a9
