@@ -79,11 +79,14 @@
             </div>
         </section>
         <section>
-            <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?
-                <input required type="checkbox" id="agreement"/>
+            <label id="label-infos" name='agreement-label' for="checkbox">Você concorda com o uso das informações acima?
+                <input type='checkbox' id="agreement" value='yes' onchange="validateFormSubmit()">
             </label>
         </section>
-        <button disabled id="submit-btn" type="submit">Enviar</button>
+        <div class="flex-container">
+            <button id="submit-btn" class="btn btn-info" type="submit" disabled>Enviar</button>
+          </div>
+        </form>
     </main>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg">
     <script src="script.js"></script>

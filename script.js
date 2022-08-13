@@ -56,4 +56,15 @@ function updateTextArea() {
 
 textArea.addEventListener('input', updateTextArea);
 
-//17. Crie um botão de "Enviar" para submeter o formulário//
+//18. Habilite o botão "Enviar" após a validação do checkbox//
+const agreementCheckbox = document.getElementById('agreement');
+const sendButton = document.getElementById('submit-btn');
+
+function validateFormSubmit() {
+  if (agreementCheckbox.checked === true) {
+    sendButton.disabled = false;
+  } else {
+    sendButton.disabled = true;
+  }
+}
+validateFormSubmit();
