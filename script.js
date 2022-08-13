@@ -45,6 +45,7 @@ function radiosAvaliacao() {
 }
 
 radiosAvaliacao();
+
 // 15. Crie uma textarea.
 const counter = document.querySelector('#counter');
 const textArea = document.querySelector('#textarea');
@@ -54,3 +55,5 @@ function updateTextArea() {
 }
 
 textArea.addEventListener('input', updateTextArea);
+
+//17. Crie um botão de "Enviar" para submeter o formulário//
