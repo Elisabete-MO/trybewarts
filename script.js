@@ -45,12 +45,25 @@ function radiosAvaliacao() {
 }
 
 radiosAvaliacao();
+<<<<<<< HEAD
 // // 15. Crie uma textarea.
 // const counter = document.querySelector('#counter');
 // const textArea = document.querySelector('#textarea');
+=======
+
+// 15. Crie uma textarea.
+const counter = document.querySelector('#counter');
+const textArea = document.querySelector('#textarea');
+>>>>>>> 5fa02501d0cad228d0eaa078bccc49f37574b755
 
 // function updateTextArea() {
 //   counter.innerText = 500 - textArea.value.length;
 // }
 
+<<<<<<< HEAD
 // textArea.addEventListener('input', updateTextArea);
+=======
+textArea.addEventListener('input', updateTextArea);
+
+//17. Crie um botão de "Enviar" para submeter o formulário//
+>>>>>>> 5fa02501d0cad228d0eaa078bccc49f37574b755
