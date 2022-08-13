@@ -45,12 +45,12 @@ function radiosAvaliacao() {
 }
 
 radiosAvaliacao();
-// 15. Crie uma textarea.
-const counter = document.querySelector('#counter');
-const textArea = document.querySelector('#textarea');
+// // 15. Crie uma textarea.
+// const counter = document.querySelector('#counter');
+// const textArea = document.querySelector('#textarea');
 
-function updateTextArea() {
-  counter.innerText = 500 - textArea.value.length;
-}
+// function updateTextArea() {
+//   counter.innerText = 500 - textArea.value.length;
+// }
 
-textArea.addEventListener('input', updateTextArea);
+// textArea.addEventListener('input', updateTextArea);
