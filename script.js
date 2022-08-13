@@ -46,11 +46,6 @@ function radiosAvaliacao() {
 
 radiosAvaliacao();
 
-// 15. Crie uma textarea.
-const counter = document.querySelector('#counter');
-const textArea = document.querySelector('#textarea');
-textArea.addEventListener('input', updateTextArea);
-
 // 18. Habilite o botão "Enviar" após a validação do checkbox//
 const agreementCheckbox = document.getElementById('agreement');
 const sendButton = document.getElementById('submit-btn');
@@ -63,3 +58,14 @@ function validateFormSubmit() {
   }
 }
 validateFormSubmit();
+
+// 20. Crie um contador de caracteres.
+function textareaLengthCheck() {
+  const textArea = document.querySelector('#textarea');
+  const counter = document.querySelector('#counter');
+  const numberChar = parseInt(counter.innerText, 10);
+  textArea.addEventListener('input', () => {
+    counter.innerText = numberChar - textArea.value.length;
+  });
+}
+textareaLengthCheck();
