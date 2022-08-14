@@ -15,7 +15,6 @@
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
   align-items: center;
-  height: 90px;
 }
 
 .trybewarts-header-logo {
@@ -26,15 +25,6 @@
 #trybewarts-header-title {
   font-size: 40px;
   color: white;
-}
-
-.trybewarts-header-logo {
-  width: 70px;
-}
-
-#trybewarts-header-title {
-  font-size: 40px;
-  color: beige;
 }
 
 .trybewarts-login {
@@ -51,7 +41,7 @@
   color: rgb(107, 106, 106);
 }
 
-#house, #textarea {
+#house , #textarea {
   border-width: 2px;
   border-style: inset;
   border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
@@ -66,21 +56,11 @@
   flex-grow: 3;
 }
 
-#btnlogin, #submit-btn {
+#btnlogin , #submit-btn {
   background-color: blueviolet;
   padding: 10px;
   color: black;
   width: 130px;
-  height: 50px;
-  text-align: center;
-  border-radius: 10px;
-}
-
-#submit-btn:disabled {
-  background-color: rgb(103, 66, 138);
-  padding: 10px;
-  color: gray;
-  width: 100%;
   height: 50px;
   text-align: center;
   border-radius: 10px;
@@ -97,13 +77,13 @@ section {
   justify-content: center;
 }
 
-#evaluation-form, #image {
+#evaluation-form , #image {
   display: flex;
   width: 675px;
   padding-left: 50px;
   flex-direction: column;
   align-items: center;
-  align-content: stretch; 
+  align-content: stretch;
 }
 
 #family-check {
@@ -151,7 +131,7 @@ hr {
   width: 45%;
 }
 
-#family-container label , #check-container label, #label-infos {
+#family-container label , #check-container label , #label-infos {
   font-size: 18px;
 }
 
@@ -162,8 +142,7 @@ hr {
 
 .checkbox-container {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  flex-flow: column wrap;
   height: 90px;
 }
 
@@ -180,9 +159,8 @@ hr {
 
 #text-container {
   display: inline-flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   width: 100%;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -216,6 +194,16 @@ hr {
   width: 100%;
 }
 
+#submit-btn:disabled {
+  background-color: rgb(103, 66, 138);
+  padding: 10px;
+  color: gray;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
 #image {
   display: flex;
   align-content: center;
@@ -230,5 +218,5 @@ hr {
 footer {
   background-color: rgb(50, 167, 145);
   text-align: right;
-  padding-right: 2%;  
+  padding-right: 2%;
 }
