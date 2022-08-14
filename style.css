@@ -66,7 +66,7 @@
   flex-grow: 3;
 }
 
-#btnlogin {
+#btnlogin, #submit-btn {
   background-color: blueviolet;
   padding: 10px;
   color: black;
@@ -136,11 +136,11 @@ hr {
   flex-direction: column;
 }
 
-#family-container label , #check-container label {
+#family-container label , #check-container label, #label-infos {
   font-size: 18px;
 }
 
-#label-family , #label-content , #label-rate {
+#label-family , #label-content , #label-rate, #label-infos {
   padding: 5px 0 19px;
 }
 
@@ -191,6 +191,20 @@ hr {
 
 #counter {
 text-align: right;
+}
+
+#agreement-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-content: stretch;
+  border: 2px solid green;
+}
+
+#agreement {
+  min-height: 20px;
+  min-width: 20px;
 }
 
 #image {
