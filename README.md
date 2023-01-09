@@ -1,13 +1,25 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# :magic_wand: Trybewarts Wizarding School! :magic_wand:
+(grupo - data de entrega 18/08/2022)
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Deploy:
+##
+### Integrantes:
+- :mage: Elisabete Martins de Oliveira
+- :mage_woman: Iana Fonteneles
+- :mage_man: Felipe Santos Andrade
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Esse projeto foi doidera d+! 
+- perdemos conteúdo pq ainda não sabiamos como funcionava o :octocat:;
+- tivemos problemas de comunicação entre os integrantes;
+- era nosso primeiro contato _sério_ com CSS, flex-box e forms
+
+No final, deu tudo certo. 
+Avaliando agora vejo como eramos inexperientes: é sério q precisamos de dias prá fazer um formulário e ajustar algumas figuras na tela? :pinched_fingers:
+
+
+## Descrição
+Criamos uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre ela. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling.
+
+:rotating_light: - a pasta SRC contem os arquivos desenvolvidos pelo grupo. As demais pastas contem arquivos desenvolvidos pela Trybe.
+
+
