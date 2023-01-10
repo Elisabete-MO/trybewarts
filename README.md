@@ -14,6 +14,7 @@ Esse projeto foi doidera d+!
 - era nosso primeiro contato _sério_ com CSS, flex-box e forms
 
 No final, deu tudo certo. 
+
 Avaliando agora vejo como eramos inexperientes: é sério q precisamos de dias prá fazer um formulário e ajustar algumas figuras na tela? :pinched_fingers:
 
 
