@@ -1,7 +1,7 @@
 # :magic_wand: Trybewarts Wizarding School! :magic_wand:
 (grupo - data de entrega 18/08/2022)
 
-Deploy: <a href="https://trybewarts-wizarding-school.glitch.me/">Trybewarts Wizarding School</a>
+Deploy: <a href="https://elisabete-mo.github.io/trybewarts/">Trybewarts Wizarding School</a>
 
 ##
 ### Integrantes:
