@@ -1,7 +1,8 @@
 # :magic_wand: Trybewarts Wizarding School! :magic_wand:
 (grupo - data de entrega 18/08/2022)
 
-Deploy:
+Deploy: <a href="https://trybewarts-wizarding-school.glitch.me/">Trybewarts Wizarding School</a>
+
 ##
 ### Integrantes:
 - :mage: Elisabete Martins de Oliveira
